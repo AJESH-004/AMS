@@ -1,0 +1,85 @@
+/* this css file is for the log in page. I am splitting the css in multiple files to make it easier to read and understand */
+
+/* removing any extra padding and margin from the beginning */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg,#62cff4,#2c67f2);
+    width: 100%;
+    height: 76.7vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+/* going to first center the wrapper and then align items to center */
+.wrapper{
+    width: 70%;
+    height: auto;
+    margin-left: 16%;
+    margin-top: 50%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5),-3px -3px 10px rgba(0,0,0,0.5);
+}
+
+/* editing the image size to fit it properly */
+#titlelogo{
+    margin-top: 30%;
+    width: 200px;
+    height: auto;
+    margin-left:16% ;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+
+
+/* the form padding is done here to space it */
+form{
+    padding-left: 20% ;
+    padding-top:20%;
+}
+
+/* the username and password field is here */
+#username,#password{   
+    margin-top: 15px; 
+    margin-bottom:1%;
+    width: 200px;
+    padding: 15px;
+    margin-left: -12%;
+    border: 0.5px solid grey;
+    font-size: 18px;
+    border-left-style:none;
+    border-top-style:none;
+    border-right-style:none;
+}
+
+/* the submit button comes here */
+#sub-button{
+    margin: 20% -19%;
+    padding: 8px 100px;
+    background-color: #28a5de;
+    border: 0.2px solid rgba(0,0,0,0.3);
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5),-1px -1px 5px rgba(0,0,0,0.5);
+    text-shadow: 0.5px 0.5px 3px black;
+}
+
+/* pseudo elements */
+#username:focus,#password:focus{
+   outline: none;
+}
+
+#sub-button:hover{
+    background-color: white;
+    color: #28a5de;
+    text-shadow: 0.5px 0.5px 3px #28a5de;
+    box-shadow: 1px 1px 5px rgba(40, 165, 222, 0.5)
+    ,-1px -1px 5px rgba(40, 165, 222, 0.5)
+    ;
+}
