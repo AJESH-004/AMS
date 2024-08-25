@@ -29,7 +29,7 @@
         width: 250px; 
         height: auto;
         display: block;
-        margin: 0 auto; 
+        margin: 50% auto; 
         filter: drop-shadow(2px 2px 5px black);
     }
 
@@ -38,7 +38,7 @@
         width: 100%; 
         padding: 10px;
         border: 0.5px solid grey;
-        font-size: 16px;
+        font-size: 26px;
         border-left-style: none;
         border-top-style: none;
         border-right-style: none;
@@ -47,13 +47,13 @@
 
     #sub-button {
        margin-top: 20%;
-       margin-left: -25px;
+       margin-left: -28px;
         padding: 10px 0;
         width: 100%; 
         background-color: #28a5de;
         border: 0.2px solid rgba(0, 0, 0, 0.3);
         border-radius: 50px;
-        font-size: 17px;
+        font-size: 27px;
         color: white;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5), -1px -1px 5px rgba(0, 0, 0, 0.5);
         text-shadow: 0.5px 0.5px 3px black;
@@ -90,10 +90,11 @@
     }
 
     #titlelogo {
-        width: 350px;
+        width: 300px;
+        max-width: 500px;
         height: auto;
         display: block;
-        margin: 20px auto; 
+        margin: 60% auto; 
         filter: drop-shadow(2px 2px 5px black);
     }
 
@@ -102,7 +103,7 @@
         width: 100%; 
         padding: 10px;
         border: 0.5px solid grey;
-        font-size: 16px;
+        font-size: 28px;
         border-left-style: none;
         border-top-style: none;
         border-right-style: none;
@@ -117,7 +118,7 @@
         background-color: #28a5de;
         border: 0.2px solid rgba(0, 0, 0, 0.3);
         border-radius: 50px;
-        font-size: 17px;
+        font-size: 30px;
         color: white;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5), -1px -1px 5px rgba(0, 0, 0, 0.5);
         text-shadow: 0.5px 0.5px 3px black;
